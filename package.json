@@ -11,6 +11,7 @@
   "type": "module",
   "types": "dist/index.d.ts",
   "scripts": {
+    "start": "web-dev-server",
     "clean": "rm -rf dist/",
     "lint": "eslint . --ext .js,.ts && tsc --noEmit",
     "prebuild": "npm run clean && npm run lint",
